@@ -1,0 +1,9 @@
+:root {
+  --turquoise-color: #08d9d6;
+  --dark-color: #252a34;
+  --red-color: #ff2e63;
+  --light-color: #eaeaea;
+
+  --header-height: 8vh;
+  --main-navigation-width: 20vw;
+}

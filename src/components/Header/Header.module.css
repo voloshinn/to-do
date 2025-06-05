@@ -1,0 +1,13 @@
+@import "../base.css";
+
+.header {
+  height: var(--header-height);
+  background-color: #252a34;
+  border-bottom: silver 1px solid;
+}
+
+.logo {
+  line-height: var(--header-height);
+  margin-left: var(--header-height);
+  color: #eaeaea;
+}

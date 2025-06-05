@@ -1,0 +1,66 @@
+@import "../base.css";
+
+.sidebar {
+  display: flex;
+  width: var(--main-navigation-width);
+  height: calc(100vh - var(--header-height));
+  position: fixed;
+  left: 0;
+  top: var(--header-height);
+  border: 1px solid silver;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabsList {
+  width: 95%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tab {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.7em;
+  margin-bottom: 0.5em;
+  list-style: none;
+  border-radius: 2em;
+  border: 1px solid var(--dark-color);
+  min-height: 1em;
+  cursor: pointer;
+}
+
+.tab a {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-weight: 400;
+  font-size: 1.3em;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 10px;
+}
+
+.tab a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 2em;
+}
+
+.tab a.activeLink {
+  color: var(--turquoise-color);
+}

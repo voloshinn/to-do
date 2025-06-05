@@ -1,0 +1,6 @@
+@import "../base.css";
+
+.contentArea {
+  display: flex;
+  margin: 5vh 0 0 calc(var(--main-navigation-width) + 5vw);
+}
