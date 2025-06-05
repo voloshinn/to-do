@@ -4,7 +4,7 @@ import styles from "../MainNavigation/MainNavigation.module.css";
 
 import tabs from "../Tabs";
 
-export default function MainNavigaton({ activeTab }) {
+export default function MainNavigaton() {
   return (
     <aside className={`${styles.sidebar}`}>
       <nav className={`${styles.tabsList}`}>
