@@ -2,5 +2,8 @@
 
 .contentArea {
   display: flex;
-  margin: 5vh 0 0 calc(var(--main-navigation-width) + 5vw);
+  margin: var(--header-height) 0 0 var(--main-navigation-width);
+  height: calc(100vh - var(--header-height));
+  width: calc(100% - var(--main-navigation-width));
+  overflow: visible;
 }

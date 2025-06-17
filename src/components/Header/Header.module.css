@@ -4,6 +4,11 @@
   height: var(--header-height);
   background-color: #252a34;
   border-bottom: silver 1px solid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .logo {

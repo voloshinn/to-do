@@ -1,0 +1,60 @@
+@import "../../base.css";
+
+.ModalBackground {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease;
+}
+
+.ModalCreateTask {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 70vh;
+  width: 70vw;
+  z-index: 1000;
+  background-color: var(--panel-bg);
+  border-radius: 8px;
+  transition: opacity 0.3s ease;
+}
+
+.modalTitle {
+  font-size: 22px;
+}
+
+.taskForm {
+  display: block;
+}
+
+.formGroup {
+  color: white;
+}
+
+.errorInput {
+  color: red;
+}
+
+.errorText {
+  color: red;
+}
+
+.formActions {
+  color: white;
+}
+
+.cancelButton {
+  background-color: gray;
+}
+
+.submitButton {
+  background-color: green;
+}
